@@ -82,6 +82,11 @@ body {
   .about .about-contact .images::after {
     display: none;
   }
+  .contact .text-contact .text-p {
+  font-size: 16px !important
+}
+.contact .text-contact a {
+font-size: 20px !important
 }
 
 @media (min-width: 768px) {
@@ -89,7 +94,7 @@ body {
     width: 750px;
   }
 }
-
+}
 /* Medium */
 @media (max-width: 991px) {
   .about .about-contact {
@@ -267,6 +272,7 @@ header .contain-logo ul li:not(:last-child) a {
   color: var(--main-color);
 }
 .features .feat h3 {
+  color: white;
   text-align: center;
   font-weight: 700;
   margin: 30px 0px;
@@ -424,11 +430,13 @@ header .contain-logo ul li:not(:last-child) a {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   background-color: var(--background-color);
+  max-width: 100%;
 }
 .contact .text-contact {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   text-align: center;
+  
 }
 .contact .text-contact .text-p {
   text-align: center;
@@ -461,9 +469,9 @@ footer {
   background-color: var(--secondary-color);
   color: white;
   text-align: center;
-  line-height: 1.2;
-  font-size: 27px;
-  padding: 15px;
+  line-height: 2.2;
+  font-size: 16px;
+  padding: 15px
 }
 footer span {
   color: var(--main-color);
